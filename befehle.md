@@ -11,6 +11,8 @@
 | `git commit -m "..."` | Schnappschuss mit Nachricht erstellen |
 | `git push` | Commits zu GitHub schieben |
 | `git push -u origin main` | Erster Push mit Tracking-Verknüpfung |
+| `git push -u origin name` | Branch erstmalig zu GitHub pushen |
+| `git push --set-upstream origin name` | Dasselbe, ausgeschrieben |
 | `git pull` | Änderungen von GitHub holen |
 | `git clone URL` | Repo von GitHub auf Festplatte kopieren |
 | `git remote add origin URL` | GitHub-Repo verknüpfen |
@@ -19,11 +21,15 @@
 | `git log --oneline` | Kurze Commit-Historie anzeigen |
 | `git diff` | Ungespeicherte Änderungen anzeigen |
 | `git branch` | Alle Branches anzeigen |
+| `git branch -a` | Alle Branches anzeigen (lokal + remote) |
 | `git branch name` | Neuen Branch erstellen |
-| `git branch -d name` | Branch löschen |
+| `git branch -d name` | Branch lokal löschen |
 | `git checkout name` | In einen Branch wechseln |
 | `git checkout -b name` | Branch erstellen und direkt reinwechseln |
 | `git merge name` | Branch in aktuellen Branch mergen |
+| `git rm --cached datei` | Datei aus Git entfernen ohne sie von der Festplatte zu löschen |
+| `git config --global user.name "..."` | Namen für Git-Commits setzen |
+| `git config --global user.email "..."` | E-Mail für Git-Commits setzen |
 
 
 ## GitHub CLI
