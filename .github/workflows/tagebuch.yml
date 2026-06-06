@@ -1,0 +1,20 @@
+name: Tagebuch CI
+
+on:
+  push:
+
+    branches:
+
+      - main
+
+
+jobs:
+
+ check:
+  runs-on: umbutu-latest
+  steps:
+   -name: Repository auschecken
+    uses:actions/checkout@v3
+
+   -name: Eintrag bestaetigt
+    run: echo "Neuer Tagebucheintrag wurde gespeichert
